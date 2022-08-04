@@ -1,6 +1,6 @@
 # https://medium.com/4yousee/infraestrutura-em-ambiente-de-desenvolvimento-com-docker-parte-1-eb28507d5eca
 # docker build -t getjv/php-fpm --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) .
-ARG PHP_VERSION=8.0.13
+ARG PHP_VERSION=8.1.8
 
 FROM php:${PHP_VERSION}-fpm-alpine
 
